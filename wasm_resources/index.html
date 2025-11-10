@@ -1,6 +1,31 @@
-<html>
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+
+    <!-- PWA Meta Tags -->
+    <title>Fishy - Dive into 8-bit Chaos</title>
+    <meta name="description" content="Tactical 2D shooter with retro 8-bit style. Play up to 4 players online or local!" />
+    <meta name="theme-color" content="#8bcfcf" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-fullscreen" />
+    <meta name="apple-mobile-web-app-title" content="Fishy" />
+
+    <!-- PWA Manifest -->
+    <link rel="manifest" href="/manifest.json" />
+
+    <!-- Favicon and Icons -->
+    <link rel="icon" type="image/png" sizes="32x32" href="/icons/icon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/icons/icon-16x16.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/icons/icon-180x180.png" />
+    <link rel="apple-touch-icon" sizes="152x152" href="/icons/icon-152x152.png" />
+    <link rel="apple-touch-icon" sizes="144x144" href="/icons/icon-144x144.png" />
+    <link rel="apple-touch-icon" sizes="120x120" href="/icons/icon-120x120.png" />
+
+    <!-- PWA Styles -->
+    <link rel="stylesheet" href="/pwa-styles.css" />
+
     <style>
       body {
         margin: 0;
@@ -145,5 +170,8 @@
       };
       setTimeout(ignoreCanvasContextMenu, 1000)
     </script>
+
+    <!-- PWA Install Prompt -->
+    <script src="/install-prompt.js"></script>
   </body>
 </html>

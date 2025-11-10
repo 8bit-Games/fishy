@@ -1,0 +1,281 @@
+/* Fishy PWA UI Styles */
+
+/* Install Button */
+.pwa-install-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 9999;
+
+  display: none;
+  align-items: center;
+  gap: 8px;
+
+  padding: 12px 20px;
+  background: linear-gradient(135deg, #8bcfcf 0%, #34925e 100%);
+  border: 2px solid #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+
+  color: white;
+  font-family: 'Arial', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+
+  cursor: pointer;
+  transition: all 0.3s ease;
+
+  animation: slideIn 0.5s ease-out;
+}
+
+.pwa-install-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.4);
+  background: linear-gradient(135deg, #9edede 0%, #3fa36d 100%);
+}
+
+.pwa-install-button:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.pwa-install-button svg {
+  width: 24px;
+  height: 24px;
+  stroke: white;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(200px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+/* Install Modal */
+.install-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 10000;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: rgba(0, 0, 0, 0.8);
+  backdrop-filter: blur(4px);
+
+  animation: fadeIn 0.3s ease-out;
+}
+
+.install-modal-content {
+  background: linear-gradient(135deg, #262B44 0%, #181425 100%);
+  border: 3px solid #8bcfcf;
+  border-radius: 12px;
+  padding: 32px;
+  max-width: 400px;
+  width: 90%;
+
+  color: white;
+  font-family: 'Arial', sans-serif;
+
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+}
+
+.install-instructions h3 {
+  margin: 0 0 16px 0;
+  color: #8bcfcf;
+  font-size: 24px;
+  text-align: center;
+}
+
+.install-instructions ol {
+  margin: 16px 0;
+  padding-left: 24px;
+}
+
+.install-instructions li {
+  margin: 12px 0;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.install-modal-close {
+  display: block;
+  width: 100%;
+  margin-top: 24px;
+  padding: 12px;
+
+  background: #34925e;
+  border: 2px solid #fff;
+  border-radius: 6px;
+
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.install-modal-close:hover {
+  background: #3fa36d;
+  transform: translateY(-1px);
+}
+
+.install-modal-close:active {
+  transform: translateY(0);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Update Notification */
+.update-notification {
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 10000;
+
+  background: linear-gradient(135deg, #262B44 0%, #181425 100%);
+  border: 2px solid #f3ee7a;
+  border-radius: 8px;
+  padding: 16px 24px;
+
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
+
+  animation: slideDown 0.5s ease-out;
+}
+
+.update-content {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  color: white;
+  font-family: 'Arial', sans-serif;
+}
+
+.update-content p {
+  margin: 0;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.update-button,
+.update-dismiss {
+  padding: 8px 16px;
+  border: 2px solid #fff;
+  border-radius: 4px;
+
+  font-size: 14px;
+  font-weight: bold;
+
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.update-button {
+  background: #34925e;
+  color: white;
+}
+
+.update-button:hover {
+  background: #3fa36d;
+}
+
+.update-dismiss {
+  background: transparent;
+  color: white;
+}
+
+.update-dismiss:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+@keyframes slideDown {
+  from {
+    transform: translateX(-50%) translateY(-100px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(-50%) translateY(0);
+    opacity: 1;
+  }
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .pwa-install-button {
+    bottom: 12px;
+    right: 12px;
+    padding: 10px 16px;
+    font-size: 14px;
+  }
+
+  .pwa-install-button svg {
+    width: 20px;
+    height: 20px;
+  }
+
+  .install-modal-content {
+    padding: 24px;
+  }
+
+  .install-instructions h3 {
+    font-size: 20px;
+  }
+
+  .install-instructions li {
+    font-size: 14px;
+  }
+
+  .update-notification {
+    top: 12px;
+    left: 12px;
+    right: 12px;
+    transform: none;
+  }
+
+  .update-content {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .update-button,
+  .update-dismiss {
+    width: 100%;
+  }
+}
+
+/* Hide install button when in standalone mode */
+@media (display-mode: standalone) {
+  .pwa-install-button {
+    display: none !important;
+  }
+}
+
+/* iOS specific adjustments */
+@supports (-webkit-touch-callout: none) {
+  .pwa-install-button {
+    bottom: calc(20px + env(safe-area-inset-bottom));
+  }
+
+  .update-notification {
+    top: calc(20px + env(safe-area-inset-top));
+  }
+}

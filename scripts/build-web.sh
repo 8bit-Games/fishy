@@ -26,5 +26,25 @@ cargo build --target $target $release_arg
 rm -rf $dist_dir
 mkdir -p $dist_dir
 wasm-bindgen --out-dir $dist_dir --target web --no-typescript $target_dir/$target/$build_kind/fishy.wasm
+
+# Copy HTML and PWA resources
 cp wasm_resources/index.html $dist_dir/index.html
+cp wasm_resources/manifest.json $dist_dir/manifest.json
+cp wasm_resources/service-worker.js $dist_dir/service-worker.js
+cp wasm_resources/install-prompt.js $dist_dir/install-prompt.js
+cp wasm_resources/pwa-styles.css $dist_dir/pwa-styles.css
+
+# Copy icons if they exist (create placeholder icons if needed)
+if [ -d "wasm_resources/icons" ]; then
+    cp -r wasm_resources/icons $dist_dir/icons
+else
+    echo "Note: PWA icons not found. Create icons in wasm_resources/icons/"
+fi
+
+# Copy screenshots if they exist
+if [ -d "wasm_resources/screenshots" ]; then
+    cp -r wasm_resources/screenshots $dist_dir/screenshots
+fi
+
+# Copy game assets
 cp -r assets $dist_dir
