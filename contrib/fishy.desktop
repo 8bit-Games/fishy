@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Fishy
+Comment=Dive into 8-bit Chaos - Tactical 2D shooter
+Exec=fishy
+Terminal=false
+Type=Application
+Categories=Game;ActionGame;Shooter;

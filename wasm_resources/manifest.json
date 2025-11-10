@@ -1,0 +1,111 @@
+{
+  "name": "Fishy - Dive into 8-bit Chaos",
+  "short_name": "Fishy",
+  "description": "Tactical 2D shooter with retro 8-bit style. Play up to 4 players online or local, with Web3 NFT cosmetics and token rewards!",
+  "start_url": "/",
+  "scope": "/",
+  "display": "fullscreen",
+  "orientation": "landscape",
+  "background_color": "#000000",
+  "theme_color": "#8bcfcf",
+  "icons": [
+    {
+      "src": "icons/icon-72x72.png",
+      "sizes": "72x72",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icons/icon-96x96.png",
+      "sizes": "96x96",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icons/icon-128x128.png",
+      "sizes": "128x128",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icons/icon-144x144.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icons/icon-152x152.png",
+      "sizes": "152x152",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icons/icon-384x384.png",
+      "sizes": "384x384",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["games", "action", "entertainment"],
+  "screenshots": [
+    {
+      "src": "screenshots/gameplay-1.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "label": "Intense 4-player underwater combat"
+    },
+    {
+      "src": "screenshots/gameplay-2.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "label": "Customize your fish with NFT hats and skins"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Quick Match",
+      "short_name": "Play",
+      "description": "Jump into a quick match",
+      "url": "/?mode=quickmatch",
+      "icons": [
+        {
+          "src": "icons/icon-96x96.png",
+          "sizes": "96x96"
+        }
+      ]
+    }
+  ],
+  "share_target": {
+    "action": "/share",
+    "method": "GET",
+    "params": {
+      "title": "title",
+      "text": "text",
+      "url": "url"
+    }
+  },
+  "related_applications": [
+    {
+      "platform": "play",
+      "url": "https://play.google.com/store/apps/details?id=io.8bitgames.fishy",
+      "id": "io.8bitgames.fishy"
+    },
+    {
+      "platform": "itunes",
+      "url": "https://apps.apple.com/app/fishy/id123456789"
+    }
+  ],
+  "prefer_related_applications": false
+}

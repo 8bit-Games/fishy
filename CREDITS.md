@@ -1,5 +1,13 @@
 # Credits
 
+## Publisher
+
+**8bit Games** - Publisher and modernization for Fishy v1.0+
+
+## Original Project: Fish Folk: Jumpy
+
+Fishy is based on the open-source game Fish Folk: Jumpy, created by the Fish Fight Game & Spicy Lobster Developers community.
+
 ## Forerunners
 
 - Landon [@superjoebob](https://twitter.com/superjoebob) - Duck Game creator

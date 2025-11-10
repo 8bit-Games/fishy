@@ -1,90 +1,229 @@
-# Fish Folk: Jumpy
+# Fishy
 
-[![Build Status](https://img.shields.io/github/actions/workflow/status/fishfolk/jumpy/ci.yml?logo=github&labelColor=1e1c24&color=8bcfcf)](https://github.com/fishfolk/jumpy/actions) [![Documentation](https://img.shields.io/badge/documentation-fishfolk.github.io-green.svg?labelColor=1e1c24&color=f3ee7a)](https://fishfolk.github.io/jumpy/book) [![License](https://img.shields.io/badge/License-MIT%20or%20Apache%202-green.svg?label=license&labelColor=1e1c24&color=34925e)](./LICENSE) [![Discord](https://img.shields.io/badge/chat-on%20discord-green.svg?logo=discord&logoColor=fff&labelColor=1e1c24&color=8d5b3f)](https://discord.gg/4smxjcheE5)
+[![Build Status](https://img.shields.io/github/actions/workflow/status/8bit-games/fishy/ci.yml?logo=github&labelColor=1e1c24&color=8bcfcf)](https://github.com/8bit-games/fishy/actions) [![Documentation](https://img.shields.io/badge/documentation-8bitgames.io-green.svg?labelColor=1e1c24&color=f3ee7a)](https://8bitgames.io/fishy) [![License](https://img.shields.io/badge/License-MIT%20or%20Apache%202-green.svg?label=license&labelColor=1e1c24&color=34925e)](./LICENSE) [![Discord](https://img.shields.io/badge/chat-on%20discord-green.svg?logo=discord&logoColor=fff&labelColor=1e1c24&color=8d5b3f)](https://discord.gg/fishy)
 
-![Fish Folk: Jumpy Preview](https://user-images.githubusercontent.com/24392180/151969075-399e9fea-e2de-4340-96a4-0a0e5b79c281.gif)
+![Fishy - Dive into 8-bit Chaos](https://user-images.githubusercontent.com/24392180/151969075-399e9fea-e2de-4340-96a4-0a0e5b79c281.gif)
 
-👉 **[Live on Kickstarter!](https://www.kickstarter.com/projects/erlendsh/fish-folk)** 👈
+**Dive into 8-bit Chaos!**
 
 ## Introduction
 
-Fish Folk: Jumpy is a tactical 2D shooter, played by up to 4 players online or on a shared screen. Aim either left or right; the rest is up to clever movement and positioning in this fish-on-fish brawler! For more information about our origin story (Duck Game et.al.) and big-picture plans, see our [design document](https://www.notion.so/erlendsh/Fish-Fight-1647ed74217e4e38a59bd28f4f5bc81a).
+**Fishy** is a tactical 2D shooter, played by up to 4 players online or on a shared screen. Aim either left or right; the rest is up to clever movement and positioning in this fish-on-fish brawler!
 
-## Web Demo
+Built with modern Rust and Bevy, Fishy combines classic 8-bit aesthetics with cutting-edge technology including Web3 integration, cross-platform multiplayer, and full mobile support.
 
-Jumpy runs in the browser! You can play [web demo][web_demo] to try out the game, without needing to install anything on your computer.
+## Play Now
 
-We recommend using the Chrome browser or other derivatives for best performance, or if you have issues with other browsers.
+### Web Demo (Play Instantly!)
 
-[web_demo]: https://fishfolk.github.io/jumpy/player/latest/
+Fishy runs in your browser! Try the [web demo](https://8bitgames.io/fishy/play) to play immediately without installing anything.
 
-### Key Features (WIP)
+We recommend Chrome or other Chromium-based browsers for best performance.
 
-- 2 to 4 players in either Local Multiplayer or Online Play
-- Easy to pick up, emphasizing strategy over twitch reaction
-- Customize characters with hats, saved to your cross-platform profile
-- Create & explore user-made weapons, levels, audio and other scripted extensions
-- Smart level creation tools
-- Tournaments & matchmaking built in
+### Download & Install
+
+**Desktop:**
+- **Steam**: [Coming Soon](https://store.steampowered.com)
+- **Direct Download**: [Latest Release](https://github.com/8bit-games/fishy/releases)
+
+**Mobile:**
+- **iOS**: [App Store - Coming Soon](https://apps.apple.com)
+- **Android**: [Google Play - Coming Soon](https://play.google.com)
+
+**Web3:**
+- Connect your wallet to unlock NFT cosmetics and earn $FISHY tokens!
+
+## Key Features
+
+### Gameplay
+- **2-4 Player Multiplayer** - Local split-screen or online play
+- **Cross-Platform** - Play on desktop, mobile, or web with crossplay
+- **Easy to Learn, Hard to Master** - Emphasizes strategy over twitch reactions
+- **Tactical Combat** - Smart positioning and movement are key to victory
+
+### Customization
+- **NFT Cosmetics** - Collect and trade unique hats, skins, and emotes
+- **$FISHY Rewards** - Earn tokens through gameplay
+- **Battle Pass** - Seasonal progression with exclusive rewards
+- **Profile NFTs** - Your account as a tradeable asset
+
+### Content
+- **14+ Maps** - Diverse underwater environments
+- **20+ Weapons** - From muskets to machine guns
+- **User-Generated Content** - Create custom maps, weapons, and mods
+- **Lua Scripting** - Full modding support
+
+### Community
+- **Tournaments** - Compete for $FISHY prizes
+- **Leaderboards** - Global and friend rankings
+- **Creator Economy** - Earn from your creations
+- **Discord Integration** - Active community
+
+## Technology
+
+**Built With:**
+- **Rust** - Memory-safe, high-performance
+- **Bevy Engine** - Modern ECS game engine
+- **Bones Framework** - Custom networking & asset system
+- **Rapier2D** - Deterministic physics for rollback netcode
+- **Web3** - Polygon blockchain for NFTs and tokens
+
+**Platforms:**
+- Desktop: Windows, macOS, Linux
+- Mobile: iOS, Android (native apps)
+- Web: WASM/WebGL (PWA support)
+
+## Web3 Features
+
+### NFT Cosmetics
+Collect rare and legendary cosmetics as NFTs:
+- Hats, skins, emotes, weapon skins
+- Trade on OpenSea and in-game marketplace
+- Proven ownership and scarcity
+- Community creations with royalties
+
+### $FISHY Token
+Earn and spend the official Fishy token:
+- Earn through matches, quests, and tournaments
+- Spend on cosmetics and tournament entries
+- Stake for additional rewards
+- Decentralized prize pools
+
+### Blockchain Benefits
+- True ownership of in-game items
+- Cross-game asset portability
+- Player-driven economy
+- Transparent tournament results
+
+**Web3 is Optional!** You can enjoy Fishy completely free without crypto.
+
+## Getting Started
+
+### Playing
+
+1. **Web**: Visit [8bitgames.io/fishy/play](https://8bitgames.io/fishy/play)
+2. **Desktop**: Download from [releases](https://github.com/8bit-games/fishy/releases) and run the executable
+3. **Mobile**: Download from App Store or Google Play
+
+### Building from Source
+
+1. Install Rust: [rustup.rs](https://rustup.rs/)
+2. Clone: `git clone https://github.com/8bit-games/fishy.git`
+3. Build: `cd fishy && cargo run`
+
+For detailed build instructions, see [BUILDING.md](./docs/BUILDING.md)
+
+### Development
+
+```bash
+# Run with optimizations for better performance
+cargo run --profile dev-optimized
+
+# Build for web
+just build-web
+
+# Run web locally
+just run-web
+
+# Run tests
+cargo test
+
+# Format code
+cargo fmt
+
+# Lint
+cargo clippy -- -W clippy::correctness -D warnings
+```
 
 ## Community
 
 ### Contributing
 
-Anyone involved in the Fish Folk community must follow our [code of conduct](https://github.com/fishfolk/jumpy/blob/main/CODE_OF_CONDUCT.md).
+We welcome contributions! Please see our [CONTRIBUTING.md](./docs/CONTRIBUTING.md) for guidelines.
 
-If you'd like to make something for Fish Folk, check out our [help-wanted](https://github.com/fishfolk/jumpy/labels/help%20wanted) issues or just ask us on [Discord](https://discord.gg/4smxjcheE5). We'll soon post an updated roadmap for the next month or two of work ahead.
+All contributors must follow our [Code of Conduct](./CODE_OF_CONDUCT.md).
 
-Before committing and opening a PR, please run the following commands and follow their instructions:
+### Get Involved
 
-1. `cargo clippy -- -W clippy::correctness -D warnings`
-2. `cargo fmt`
+- **Discord**: [Join our server](https://discord.gg/fishy)
+- **Twitter**: [@FishyGame](https://twitter.com/fishygame)
+- **GitHub**: [Open issues](https://github.com/8bit-games/fishy/issues)
+- **Wiki**: [Community wiki](https://github.com/8bit-games/fishy/wiki)
 
-### Development Build Profiles
+### Content Creation
 
-By default, Jumpy will build without optimizations for the `jumpy_core` and `jumpy` crates. This helps reduce re-compile times at the expense of some runtime performance. If you need increased runtime performance during development, you can build with the `--profile dev-optimized` option, to optimize all of the crates:
+Create and share your content:
+- **Maps**: Use the in-game editor
+- **Mods**: Lua scripting support
+- **Art**: Contribute pixel art
+- **Guides**: Help new players
 
-```bash
-cargo r --profile dev-optimized
-```
+Earn $FISHY tokens for featured community content!
 
-### Learning Materials
+## Roadmap
 
-#### Rust
+### Current: Season 1 (Launch)
+- ✅ Core gameplay
+- ✅ 14 maps, 20+ weapons
+- ✅ Cross-platform multiplayer
+- ✅ Web3 integration
+- 🚧 Mobile apps (iOS/Android)
+- 🚧 Battle Pass system
 
-- [Rusty Engine Tutorial](https://cleancut.github.io/rusty_engine/)
-- [Rust sokoban](https://sokoban.iolivia.me/)
-- <https://pragprog.com/titles/hwrust/hands-on-rust/>
+### Season 2 (Q2 2026)
+- New fish characters
+- Additional maps and weapons
+- Tournament system v2
+- Enhanced modding tools
 
-#### Bevy
+### Season 3+ (2026)
+- Campaign mode
+- Clan system
+- Esports features
+- Platform expansions
 
-- [Unofficial Bevy Cheat Book](https://bevy-cheatbook.github.io/)
+See [MODERNIZATION_PLAN.md](./MODERNIZATION_PLAN.md) for full details.
 
-## Download & play
+## Monetization
 
-1. Download the latest version from the [releases](https://github.com/fishfolk/jumpy/releases) page.
-2. Extract the archive and run the executable. (e.g. `./jumpy` or `jumpy.exe`)
+Fishy is **free-to-play** with optional purchases:
 
-### Launcher
+- **Battle Pass**: $9.99/season (3 months)
+- **Cosmetics**: $1.99-$9.99
+- **NFTs**: Variable (marketplace)
+- **Tournament Entry**: $5-$50 (prize pools)
 
-[A cross-platform launcher](https://github.com/spicylobstergames/SpicyLauncher) is also available for downloading and launching the game easily.
-
-### Distro Packages
-
-#### Arch Linux
-
-```sh
-pacman -S jumpy
-```
-
-## Building
-
-1. Install Rust with [rustup.rs](https://rustup.rs/)
-2. Clone this repository: `git clone https://github.com/fishfolk/jumpy.git`
-3. `cd jumpy`
-4. `cargo run`
+All gameplay content is free. Purchases are cosmetic only.
 
 ## Credits
 
-- [Fish Folk: Jumpy Credits](./CREDITS.md)
+### 8bit Games Team
+- [Team roster to be added]
+
+### Original Project
+Based on Fish Folk: Jumpy by the Fish Fight Game & Spicy Lobster Developers.
+See [CREDITS.md](./CREDITS.md) for full attribution.
+
+### Assets
 - Input Icons: [Kadith's Icons](https://kadith.itch.io/kadiths-free-icons) by Kadith
+- Music & Sound: Original compositions
+- Art: Community contributors
+
+## License
+
+Dual-licensed under MIT OR Apache-2.0. See [LICENSE](./LICENSE) for details.
+
+Smart contracts and Web3 components may have additional licenses.
+
+## Support
+
+- **Bug Reports**: [GitHub Issues](https://github.com/8bit-games/fishy/issues)
+- **Feature Requests**: [Discussions](https://github.com/8bit-games/fishy/discussions)
+- **Email**: support@8bitgames.io
+- **Discord**: Technical support channel
+
+---
+
+**Made with 🐟 by 8bit Games**
+
+[Website](https://8bitgames.io/fishy) | [Play Now](https://8bitgames.io/fishy/play) | [Discord](https://discord.gg/fishy) | [Twitter](https://twitter.com/fishygame)
