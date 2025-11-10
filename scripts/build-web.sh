@@ -25,6 +25,6 @@ set -ex
 cargo build --target $target $release_arg
 rm -rf $dist_dir
 mkdir -p $dist_dir
-wasm-bindgen --out-dir $dist_dir --target web --no-typescript $target_dir/$target/$build_kind/jumpy.wasm
+wasm-bindgen --out-dir $dist_dir --target web --no-typescript $target_dir/$target/$build_kind/fishy.wasm
 cp wasm_resources/index.html $dist_dir/index.html
 cp -r assets $dist_dir

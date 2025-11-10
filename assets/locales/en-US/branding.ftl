@@ -1,2 +1,2 @@
-title = Fish Folk
-subtitle = Jumpy
+title = Fishy
+subtitle = Dive into 8-bit Chaos

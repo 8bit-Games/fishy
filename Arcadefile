@@ -1,5 +1,5 @@
-id: fish-folk-jumpy
-name: jumpy
+id: 8bit-games-fishy
+name: fishy
 logoUrl: /static/images/ship/original.png
 coverImage:
   original: /static/images/cover/original.jpg
@@ -9,7 +9,7 @@ marketingAssets:
     title: cover
     description: Cover image
 description: |
-  Fish Folk: Jumpy is a tactical 2D shooter, played online or on a shared screen.
+  Fishy - Dive into 8-bit Chaos! A tactical 2D shooter, played online or on a shared screen.
   Aim either left or right; the rest is up to clever movement and positioning in this fish-on-fish brawler!
 admins:
   - fllr
